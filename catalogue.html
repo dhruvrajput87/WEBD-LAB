@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Four Column HTML Page</title>
+  <style>
+    /* CSS to make the page responsive and look better */
+    body {
+      font-family: sans-serif;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .book-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+    }
+
+    .book-image {
+      width: 150px;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .book-info {
+      flex: 1;
+    }
+
+    .book-price {
+      text-align: right;
+    }
+
+    .add-to-cart-button {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Book ISO Code</th>
+          <th>Author</th>
+          <th>Publication</th>
+          <th>Price</th>
+          <th>Add To Cart</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="https://www.gkpublications.com/wp-content/uploads/2022/10/71wPDFZZu4L-jpg-webp.webp" class="book-image"></td>
+          <td>745847847</td>
+          <td>Author 1</td>
+          <td>G.K 1</td>
+          <td>$100</td>
+          <td><button class="add-to-cart-button">Add To Cart</button></td>
+        </tr>
+        <tr>
+          <td><img src="https://www.schandpublishing.com/Handler/ImageHandler.ashx?width=314&height=404&imgpath=~/Upload/BookImage/10000261.jpg" class="book-image"></td>
+          <td>7676556544</td>
+          <td>V.K MEHTA</td>
+          <td>S.CHAND</td>
+          <td>$200</td>
+          <td><button class="add-to-cart-button">Add To Cart</button></td>
+        </tr>
+        <tr>
+          <td><img src="https://media.springernature.com/full/springer-static/cover-hires/book/978-3-030-78995-4" class="book-image"></td>
+          <td>5495495432</td>
+          <td>O.N PANDEY</td>
+          <td>SPRINGER</td>
+          <td>$300</td>
+          <td><button class="add-to-cart-button">Add To Cart</button></td>
+        </tr>
+        <tr>
+          <td><img src="https://media.springernature.com/full/springer-static/cover-hires/book/978-3-030-72357-6" class="book-image"></td>
+          <td>5964969949</td>
+          <td>CHARU C. AGGARWAL</td>
+          <td>SPRINGER</td>
+          <td>$400</td>
+          <td><button class="add-to-cart-button">Add To Cart</button></td>
+        </tr>
+        <tr>
+          <td><img src="https://freecomputerbooks.com/covers/Machine-Language-for-Beginners.jpg" class="book-image"></td>
+          <td>4385948390</td>
+          <td>RICHARD MANSFIELD</td>
+          <td>COMPUTE! PUBLICATIONS</td>
+          <td>$500</td>
+          <td><button class="add-to-cart-button">Add To Cart</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
